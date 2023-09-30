@@ -1,0 +1,63 @@
+.login {
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(89, 83, 83, 0.5), rgba(89, 83, 83, 0.5)),
+    url("https://images.wallpaperscraft.com/image/single/newspaper_coffee_cup_84893_1920x1080.jpg");
+  background-size: cover;
+}
+
+.loginTitle {
+  font-size: 60px;
+  text-decoration: line-through white 2px;
+  text-underline-offset: 2px;
+}
+
+.loginForm {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.loginForm > label {
+  margin: 10px 0;
+  font-size: 25px;
+  color: white;
+}
+
+.loginInput {
+  padding: 13px;
+  background-color: white;
+  border: none;
+}
+
+.loginButton {
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: rgb(161, 116, 116);
+  border: none;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 17px;
+}
+
+.loginButton:disabled {
+  cursor: not-allowed;
+  background-color: rgb(149, 59, 59);
+}
+
+.loginRegisterButton {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  background-color: rgb(143, 115, 115);
+  cursor: pointer;
+  padding: 15px;
+  color: aliceblue;
+  border-radius: 10px;
+  font-size: 18px;
+  border: none;
+}
