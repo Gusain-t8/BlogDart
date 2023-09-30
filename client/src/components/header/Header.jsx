@@ -4,8 +4,8 @@ export default function Header() {
   return (
     <div className="header">
       <div className="headerTitles">
-        <span className="headerTitleSm">React & Node</span>
-        <span className="headerTitleLg">Blog</span>
+        <span className="headerTitleSm">Create & Connect</span>
+        <span className="headerTitleLg">BlogDart</span>
       </div>
       <img
         src="https://images.wallpaperscraft.com/image/single/roses_flowers_petals_333097_1366x768.jpg"
